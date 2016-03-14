@@ -111,7 +111,7 @@ public class userLogin extends JFrame {
 	
 	public void newSuccess (){
 		this.dispose();
-		new Success().setVisible(true);
+		new MainMenu().setVisible(true);
 	}
 
 }
